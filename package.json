@@ -1,6 +1,6 @@
 {
   "name": "crc-can",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Allows to calculate crc-can of a byte array",
   "main": "src/index.js",
   "files": [
