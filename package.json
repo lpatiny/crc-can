@@ -1,7 +1,7 @@
 {
-  "name": "crc",
-  "version": "0.0.0",
-  "description": "Allows to calculate CRC of a byte array",
+  "name": "crc-can",
+  "version": "0.0.1",
+  "description": "Allows to calculate crc-can of a byte array",
   "main": "src/index.js",
   "files": [
     "lib",
@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cheminfo/crc.git"
+    "url": "git+https://github.com/cheminfo/crc-can.git"
   },
   "keywords": [],
   "author": "Luc Patiny",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cheminfo/crc/issues"
+    "url": "https://github.com/cheminfo/crc-can/issues"
   },
-  "homepage": "https://github.com/cheminfo/crc#readme",
+  "homepage": "https://github.com/cheminfo/crc-can#readme",
   "jest": {
     "testEnvironment": "node"
   },

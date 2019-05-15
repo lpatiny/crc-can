@@ -6,18 +6,18 @@
   [![David deps][david-image]][david-url]
   [![npm download][download-image]][download-url]
   
-Allows to calculate CRC of a byte array
+Allows to calculate CRC of a byte array for UAV CAN
 
 ## Installation
 
-`$ npm install crc`
+`$ npm install crc-can`
 
-## [API Documentation](https://cheminfo.github.io/crc/)
+## [API Documentation](https://cheminfo.github.io/crc-can/)
 
 ## Example
 
 ```js
-const crc = require('crc');
+const crc = require('crc-can');
 ```
 
 
@@ -25,13 +25,13 @@ const crc = require('crc');
 
 [MIT](./LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/crc.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/crc
-[travis-image]: https://img.shields.io/travis/cheminfo/crc/master.svg?style=flat-square
+[npm-image]: https://img.shields.io/npm/v/crc-can.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/crc-can
+[travis-image]: https://img.shields.io/travis/cheminfo/crc-can/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/cheminfo/crc
-[codecov-image]: https://img.shields.io/codecov/c/github/cheminfo/crc.svg?style=flat-square
-[codecov-url]: https://codecov.io/gh/cheminfo/crc
-[david-image]: https://img.shields.io/david/cheminfo/crc.svg?style=flat-square
-[david-url]: https://david-dm.org/cheminfo/crc
-[download-image]: https://img.shields.io/npm/dm/crc.svg?style=flat-square
-[download-url]: https://www.npmjs.com/package/crc
+[codecov-image]: https://img.shields.io/codecov/c/github/cheminfo/crc-can.svg?style=flat-square
+[codecov-url]: https://codecov.io/gh/cheminfo/crc-can
+[david-image]: https://img.shields.io/david/cheminfo/crc-can.svg?style=flat-square
+[david-url]: https://david-dm.org/cheminfo/crc-can
+[download-image]: https://img.shields.io/npm/dm/crc-can.svg?style=flat-square
+[download-url]: https://www.npmjs.com/package/crc-can
