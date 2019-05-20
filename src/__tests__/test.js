@@ -13,6 +13,26 @@ describe('CRC test', () => {
     expect(crc(array)).toBe(0x29b1);
   });
 
+  it('123456789 + CRC', () => {
+    let string = '123456789';
+    let array = [];
+    for (let i = 0; i < string.length; i++) {
+      array.push(string.charCodeAt(i));
+    }
+    array.push(0x29, 0xb1);
+    expect(crc(array)).toBe(0);
+  });
+
+  it('123456789 + CRC + 0 0', () => {
+    let string = '123456789';
+    let array = [];
+    for (let i = 0; i < string.length; i++) {
+      array.push(string.charCodeAt(i));
+    }
+    array.push(0x29, 0xb1, 0, 0);
+    expect(crc(array)).toBe(0);
+  });
+
   it('123', () => {
     let string = '123';
     let array = [];
